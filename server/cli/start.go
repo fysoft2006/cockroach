@@ -230,6 +230,7 @@ func runQuit(cmd *cobra.Command, args []string) {
 var nodeCmds = []*cobra.Command{
 	initCmd,
 	startCmd,
+	certCmd,
 	exterminateCmd,
 	quitCmd,
 }
